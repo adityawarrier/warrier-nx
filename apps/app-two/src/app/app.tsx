@@ -1,16 +1,15 @@
 import { Box, Button } from '@warrier/ui-components';
-import styles from './app.module.scss';
 
 export function App() {
   return (
-    <div className={styles['container']}>
+    <div>
       <Button
-        title="Click Me!"
+        title="App Two"
         onClick={() => {
-          console.log('LOL!');
+          console.log('App Two Clicked!');
         }}
       />
-      <Box size={200} color="lightpink" />
+      <Box />
     </div>
   );
 }

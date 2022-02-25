@@ -1,13 +1,17 @@
-import './button.module.scss';
+import classes from './button.module.scss';
 
-/* eslint-disable-next-line */
-export interface ButtonProps {}
+export interface ButtonProps {
+  title: string;
+  onClick: () => void;
+}
 
 export function Button(props: ButtonProps) {
+  const { title, onClick } = props;
+
   return (
-    <div>
-      <h1>Welcome to Button!</h1>
-    </div>
+    <button className={classes['container']} onClick={onClick}>
+      <span className={classes['title']}>{title}</span>
+    </button>
   );
 }
 
