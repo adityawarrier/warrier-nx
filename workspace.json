@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "app-one": "apps/app-one",
-    "app-one-e2e": "apps/app-one-e2e"
+    "app-one-e2e": "apps/app-one-e2e",
+    "ui-components": "libs/ui-components"
   }
 }
