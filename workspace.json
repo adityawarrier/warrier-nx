@@ -5,6 +5,7 @@
     "app-one-e2e": "apps/app-one-e2e",
     "app-two": "apps/app-two",
     "state": "libs/state",
-    "ui-components": "libs/ui-components"
+    "ui-components": "libs/ui-components",
+    "ui-components-e2e": "apps/ui-components-e2e"
   }
 }
